@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
+# Patterns of Commuting Flows of NY-NJ Workers and The Association with Rent Levels
 
 This study aims to explore: </br>
-1. The patterns of communting flows of NYC workers. </br>
+1. The patterns of commuting flows of NYC workers. </br>
 2. The net inflow/outflow of workers in the study area. </br>
 3. The associate between median rent of residing places and their straight-line distance to Manhattan. </br>
 
 
 
-# Background
+## Background
 
 Studies have shown that long commutes have a negative impact on health and happiness. 
 
