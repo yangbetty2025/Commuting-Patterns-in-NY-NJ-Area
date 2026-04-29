@@ -59,7 +59,7 @@ In fact, the summary table below reveals that, of the seven workplaces, **Manhat
 
 The bidirectional bar chart below illustrates the striking differences: 
 
-<img src="./assets/css/BidirectionalBarChart.svg" alt="Bidirectional Bar Chart"></img>
+<img src="./assets/css/BidirectionalBarChart.svg" alt="Bidirectional Bar Chart">
 
 
 
