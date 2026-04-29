@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-# Patterns of Commuting Flows of NY-NJ Workers and The Association with Rent Levels
+# Commuting Patterns of NYC Workers and the Association with Rent Levels
+
+
 
 This study aims to explore: </br>
 1. The patterns of commuting flows of NYC workers. </br>
