@@ -77,7 +77,7 @@ The median gross rents for all NY and NJ counties are visualized as a choropleth
 
   There is a general pattern: **the farther the county is to Manhattan, the cheaper the median gross rent.** This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
 
-![Scatterplot] ](assets/css/RentDistanceScatterplot.svg)
+![Scatterplot](assets/css/RentDistanceScatterplot.svg)
 
 
   How strong is this negative rent-distance association? A Pearson’s Correlation Coefficient of -0.844 quantifies the strong negative correlation, and a OLS linear regression reveals that distance to Manhattan is a significant predictor for median gross rent at the 5% significant level (p-value < 0.0001, Confidence Interval [-4.533, -3.416]), and distance alone explains over 70% of the total variance of median gross rent. 
