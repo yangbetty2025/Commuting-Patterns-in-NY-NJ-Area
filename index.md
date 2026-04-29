@@ -52,12 +52,16 @@ The commuting patterns for workers in the NY-NJ area are best illustrated by a f
 While there are movements in both directions between any two study areas, the strongest flows go into Manhattan.  
 In fact, the summary table below reveals that, of the seven workplaces, **Manhattan is the only area with a net inflow of workers** (around **1.5 million**) while all the other workplaces show a net outflow of between 78,000 to 310,000 workers. 
 
+![Plotly Chart](NetWorkerInflowTable.svg)
+
  ![Net Workers Inflow Outflow Table](./assets/css/NetWorkerInflowTable.svg)
  
 
 The bidirectional bar chart below illustrates the striking differences: 
 
 <img src="./assets/css/BidirectionalBarChart.svg" alt="Bidirectional Bar Chart"></img>
+
+
 
 Why, then, do so many Big Apple workers put up with their long commute to Manhattan? 
 
