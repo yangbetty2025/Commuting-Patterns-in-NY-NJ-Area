@@ -2,25 +2,36 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+This study aims to explore: </br>
+1. The patterns of communting flows of NYC workers. </br>
+2. The net inflow/outflow of workers in the study area. </br>
+3. The associate between median rent of residing places and their straight-line distance to Manhattan. </br>
 
-[Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# Background
 
-# Header 1
+Studies have shown that long commutes have a negative impact on health and happiness. 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</br>
 
-## Header 2
+## Methods
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+### Results
+
+
+
+<iframe 
+  src="https://www.flowmap.blue/1ZW4OimEUiVa9eRIm-t12TsHoHoL5P8XD3MJhgXuLHNQ?v=40.758797%2C-74.000900%2C9.94%2C0%2C0&a=1&as=1&b=1&bo=75&c=1&ca=1&d=0&fe=1&lt=1&lfm=ALL&col=Magenta&f=23"
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
 
 ```js
 // Javascript code with syntax highlighting.
