@@ -57,7 +57,7 @@ In fact, the summary table below reveals that, of the seven workplaces, **Manhat
 
 The bidirectional bar chart below illustrates the striking differences: 
 
-<img src="./assets/css/BidirectionalBarChart.svg" alt="Net Workers Inflow Outflow Bidirectional Bar Chart" width="100%" />
+<img src="./assets/css/BidirectionalBarChart.svg" alt="Bidirectional Bar Chart">
 
 Why, then, do so many Big Apple workers put up with their long commute to Manhattan? 
 
