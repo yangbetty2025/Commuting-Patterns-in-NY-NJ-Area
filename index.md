@@ -37,7 +37,7 @@ I cleaned the data and created an interactive choropleth map using the plotly.ex
 
 Finally, I calculated the Pearson’s Correlation Coefficient between the median gross rent of each county in NY and NJ and its distance to Manhattan using the stats library from scipy. I then created an interactive scatterplot for Median Gross Rent vs. Distance to Manhattan using the plotly.express library. I concluded my analysis with a univariate linear regression using median gross rent as the outcome and distance to Manhattan as the predictor. 
 
-## Results
+## Results & Interpretations
 
 The commuting patterns for workers in the NY-NJ area are best illustrated by a flow map: 
 
@@ -52,12 +52,12 @@ The commuting patterns for workers in the NY-NJ area are best illustrated by a f
 While there are movements in both directions between any two study areas, the strongest flows go into Manhattan.  
 In fact, the summary table below reveals that, of the seven workplaces, **Manhattan is the only area with a net inflow of workers** (around **1.5 million**) while all the other workplaces show a net outflow of between 78,000 to 310,000 workers. 
 
-  <iframe src="NetWorkerInflowTable.svg" width="100%" height="200px"></iframe>
+ ![Net Workers Inflow Outflow Table](assets/css/NetWorkerInflowTable.svg)
+ 
 
+The bidirectional bar chart below illustrates the striking differences: 
 
-The bidirectional bar chart below illustrates the striking differences: </br>
-
-  <iframe src="BidirectionalBarChart.svg" width="100%" height="400px"></iframe>
+![Net Workers Inflow Outflow Bidirectional Bar Chart](assets/css/BidirectionalBarChart.svg)
 
 
 Why, then, do so many Big Apple workers put up with their long commute to Manhattan? 
@@ -69,11 +69,12 @@ Many reasons come to mind: more job opportunities, better pay, and so on. But th
 The median gross rents for all NY and NJ counties are visualized as a choropleth map below: 
 
   <iframe src="MedianRentChoroplethMap.html" width="100%" height="400px"></iframe>
-  </br>
+
+
 
   There is a general pattern: **the farther the county is to Manhattan, the cheaper the median gross rent.** This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
 
-  <iframe src="RentDistanceSctterplot.svg" width="100%" height="400px"></iframe>
+ ![Scatterplot of Median Gross Rent vs. Distance to Manhattan](assets/css/RentDistanceSctterplot.svg)
 
 
   How strong is this negative rent-distance association? A Pearson’s Correlation Coefficient of -0.844 quantifies the strong negative correlation, and a OLS linear regression reveals that distance to Manhattan is a significant predictor for median gross rent at the 5% significant level (p-value < 0.0001, Confidence Interval [-4.533, -3.416]), and distance alone explains over 70% of the total variance of median gross rent. 
