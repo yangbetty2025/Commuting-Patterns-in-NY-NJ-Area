@@ -59,7 +59,7 @@ In fact, the summary table below reveals that, of the seven workplaces, **Manhat
 
 The bidirectional bar chart below illustrates the striking differences: 
 
-<img src="https://raw.githubusercontent.com/yangbetty2025/Commuting-Patterns-in-NY-NJ-Area/master/BidirectionalBarChart.svg" alt="Bar Chart">
+<img src="https://raw.githubusercontent.com/yangbetty2025/Commuting-Patterns-in-NY-NJ-Area/master/BidirectionalBarChart.svg" alt="Bar Chart" ?sanitize=true>
 
 
 
