@@ -54,7 +54,7 @@ The commuting patterns for workers in the NY-NJ area are best illustrated by a f
 While there are movements in both directions between any two study areas, the strongest flows go into Manhattan.  
 In fact, the summary table below reveals that, of the seven workplaces, **Manhattan is the only area with a net inflow of workers** (around **1.5 million**) while all the other workplaces show a net outflow of between 78,000 to 310,000 workers. 
 
- <img src="assets/css/NetWokersFlowTable.png" width="600">
+ <img src="assets/css/NetWokersFlowTable.png" width="1200">
 
 The bidirectional bar chart below illustrates the striking differences: 
 
@@ -69,7 +69,7 @@ Many reasons come to mind: more job opportunities, better pay, and so on. But th
 
 The median gross rents for all NY and NJ counties are visualized as a choropleth map below: 
 
-  <iframe src="yangbetty2025/Commuting-Patterns-in-NY-NJ-Area/MedianRentChoroplethMap.html" width="100%" height="400px"></iframe>
+  <iframe src="https://prattsavi.maps.arcgis.com/apps/mapviewer/index.html?webmap=5ff3e9763dbd4cf8a71a8455acad3cdb="100%" height="400px"></iframe>
 
 
   There is a general pattern: **the farther the county is to Manhattan, the cheaper the median gross rent.** This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
