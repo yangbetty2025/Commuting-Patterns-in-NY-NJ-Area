@@ -4,5 +4,4 @@ node_modules
 *.gem
 Gemfile.lock
 *.gem
-assets/**/*.md
 .jekyll-cache
