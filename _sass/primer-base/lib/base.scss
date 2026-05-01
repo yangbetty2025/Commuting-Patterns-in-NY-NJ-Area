@@ -23,6 +23,10 @@ body {
 a {
   color: #1C398E;
   text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+
   }
 }
 
