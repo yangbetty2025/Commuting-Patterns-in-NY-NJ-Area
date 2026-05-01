@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
- ![commuters](assets/css/commuters1.jpg)
+ ![commuters](assets/css/commuters.png)
  
 
 
