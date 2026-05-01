@@ -14,14 +14,14 @@ button {
 
 body {
   font-family: $body-font;
-  font-size: $body-font-size;
+  font-size: 12;
   line-height: $body-line-height;
   color: $text-gray-dark;
-  background-color: $bg-white;
+  background-color: #f0f7f0;
 }
 
 a {
-  color: #1C69A8;
+  color: #50b7e3;
   text-decoration: none;
 
   &:hover {
