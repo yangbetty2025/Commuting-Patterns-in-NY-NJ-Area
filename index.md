@@ -69,7 +69,12 @@ Many reasons come to mind: more job opportunities, better pay, and so on. But th
 
 The median gross rents for all NY and NJ counties are visualized as a choropleth map below: 
 
-  <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=acff523d1ea749bf9c42791d1126baed"></iframe>
+  <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=acff523d1ea749bf9c42791d1126baed"
+  width="100%" 
+  height="500" 
+  frameborder="2" 
+  allowfullscreen>>
+  </iframe>
 
 
   There is a general pattern: **the farther the county is to Manhattan, the cheaper the median gross rent.** This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
