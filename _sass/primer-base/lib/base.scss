@@ -1,3 +1,12 @@
+//Override the Page Title (h1) and h2 Color
+header h1 a {
+  color: #312C85;
+}
+
+header h2 a {
+  color: #312C85;
+}
+
 // stylelint-disable selector-max-type
 * {
   box-sizing: border-box;
@@ -21,7 +30,7 @@ body {
 }
 
 a {
-  color: #1C398E;
+  color: #62748E;
   text-decoration: none;
   
   &:hover {
