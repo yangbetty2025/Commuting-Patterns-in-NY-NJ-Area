@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+# Commuting Patterns of NYC Workers and the Association with Rent
 <br>
  ![commuters](assets/css/commuters2.png)
 <br>
