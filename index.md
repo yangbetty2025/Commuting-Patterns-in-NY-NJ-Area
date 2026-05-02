@@ -50,7 +50,6 @@ The commuting patterns for workers in the NY-NJ area are best illustrated by a f
   allowfullscreen>
 </iframe>
 <br>
-<br>
 
 While there are movements in both directions between any two study areas, the **strongest flows go into Manhattan**.  
 
@@ -71,13 +70,13 @@ The bidirectional bar chart below illustrates the striking differences between t
 
 Why, then, do so many workers put up with their long commute to Manhattan?  
 
-Many reasons come to mind: more job opportunities, better pay, and so on. But the one reason we hear most about, even from those who do work and live in Manhattan, is how unaffordable rents are in the city. 
+Many reasons come to mind: more job opportunities, better pay, and so on. But the one reason we hear most about, even from those who both work *and* live in Manhattan, is how unaffordable rents are in the city. 
 
 “The overall proportion of New York City residents paying more than 30% of their income for rent is high (52.1%),” according to a [2024 report](https://comptroller.nyc.gov/reports/spotlight-new-york-citys-rental-housing-market/) by the NYC Comptroller. This means city workers get to keep a larger portion of their paycheck by commuting from places with lower rents.
 
 The median gross rents for all NY and NJ counties are visualized as a choropleth map below:
  <br>
-
+ <br>
   <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=acff523d1ea749bf9c42791d1126baed"
   width="100%" 
   height="600" 
@@ -85,15 +84,17 @@ The median gross rents for all NY and NJ counties are visualized as a choropleth
   allowfullscreen>>
   </iframe>
 <br>
-<br>
 
-There is a general pattern: the farther the county is from Manhattan, the cheaper the median gross rent. This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
+There is a general pattern: **the farther the county is from Manhattan, the cheaper the median gross rent**. 
+
+This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
 <br>
 <br>
  <img src="assets/css/Scatterplot.png" width="100%">
 <br>
+<br>
 
-A Pearson’s Correlation Coefficient of -0.844 quantifies this **strong negative correlation between rent and distance**, and an Ordinary Least Squares regression reveals that the **distance to Manhattan is a significant predictor for median gross rent** at the 5% significant level (p-value < 0.0001, Confidence Interval [-4.533, -3.416]), while distance alone explains over 70% of the total variance of median gross rent. 
+A Pearson’s Correlation Coefficient of -0.844 quantifies this **strong negative correlation between rent and distance**, and an Ordinary Least Squares regression reveals that the **distance to Manhattan is a significant predictor for median gross rent** at the 5% significant level (*p*-value < 0.0001, Confidence Interval [-4.533, -3.416]), while distance alone explains over 70% of the total variance of median gross rent (*R<sup>2</sup>* = 0.71). 
 
 Given the large inflow of workers into Manhattan, an attempt to improve their health and happiness by shortening their commute through relocating to places closer to work would require them to pay higher rent, which, in turn, [creates greater financial worries that are significantly associated with higher psychological distress](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806009/). The net trade-off does not seem hopeful, not to mention its infeasibility.
 
