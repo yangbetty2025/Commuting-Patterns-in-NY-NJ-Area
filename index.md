@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<br>
  ![commuters](assets/css/commuters2.png)
 <br>
 <br> 
@@ -20,7 +21,7 @@ My study aims to answer the following three questions:
 ## Methods
 I used Python 3.12 in Google Colab to perform all data cleaning, manipulation, and the static visualizations for this project. To create the flow map, I used [FlowmapBlue](https://www.flowmap.blue/), which is a free, open-source web tool. To create an interactive map for a static webpage, I used [ArcGIS Online](https://www.arcgis.com/index.html), a web-based mapping platform for creating and publishing interactive web maps.
 
-To analyze **patterns of worker flows in the NY-NJ area**, I downloaded the [data](assets/css/NY_NJ_Workers.csv) (ID: 302100) from the American Association of State Highway and Transportation Official (AASHTO) Census Transportation Solutions, which provides data on home and work locations and journey-to-work travel flows via its [CTTP data portal](https://ctppdata.transportation.org/#/index). I queried data for 2017-2021 (5 years) at the State-County level on the flow of workers aged 16 and over across all counties in NY and NJ.
+To analyze **patterns of worker flows in the NY-NJ area**, I downloaded the [data](assets/css/NY_NJ_Total_Workers.csv) (ID: 302100) from the American Association of State Highway and Transportation Official (AASHTO) Census Transportation Solutions, which provides data on home and work locations and journey-to-work travel flows via its [CTTP data portal](https://ctppdata.transportation.org/#/index). I queried data for 2017-2021 (5 years) at the State-County level on the flow of workers aged 16 and over across all counties in NY and NJ.
 
 I cleaned this data and recategorized geographic units from counties to Manhattan, Bronx, Brooklyn, Queens, Staten Island, NYS, and NJ. Using the *.groupby()* and *.sum()* functions in the *pandas* library, I generated a table showing the counts of residents and workers in each of the seven specified areas (i.e., the five boroughs of NYC, NY state, and NJ state). 
 
@@ -28,9 +29,9 @@ To generate a **flow map** on [FlowmapBlue](https://www.flowmap.blue/), I create
 
 To visualize the **net inflow (or outflow) of workers** in each specified areas, I first subtracted the number of residents from the number of workers in that area. Inflow of workers to an area is a positive count (i.e., workers > residents), whereas outflow is a negative count (i.e., workers < residents). I created a summary table using *plotly.graphic_objects* library and a bidirectional bar chart using the *plotly.express* library.
 
-To investigate any association between rent levels and commuting distance to Manhattan, I downloaded the [Median Gross Rent (Dollars)](assets/css/MedianGrossRent5Y2024) dataset (B25064) of the 2024 American Community Survey ACS 5-Year Estimates from the [US Census Bureau](https://data.census.gov/) for all counties in NY and NJ. I cleaned the data and extracted the last five digits of GEOID, which is the county FIPS code for the county. 
+To investigate any association between rent levels and commuting distance to Manhattan, I downloaded the [Median Gross Rent (Dollars)](assets/css/MedianGrossRent5Y2024.csv) dataset (B25064) of the 2024 American Community Survey ACS 5-Year Estimates from the [US Census Bureau](https://data.census.gov/) for all counties in NY and NJ. I cleaned the data and extracted the last five digits of GEOID, which is the county FIPS code for the county. 
 
-Using the five-digit FIPS code, I joined the Median Gross Rent data to the [2023 USA Census Counties](https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Census_Counties/FeatureServer) map in ArcGIS Online to create an **interactive choropleth map**, where the darker colors represent higher median gross rent.
+Using the five-digit FIPS code, I joined the Median Gross Rent data to the [2023 USA Census Counties](https://www.arcgis.com/apps/mapviewer/index.html?url=https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Census_Counties/FeatureServer&source=sd) map in ArcGIS Online to create an **interactive choropleth map**, where the darker colors represent higher median gross rent.
 
 To calculate the **straight-line distance** from each NY and NJ county to Manhattan, latitude-longitude coordinates are necessary. I downloaded the [United States Counties Database](assets/css/uscounties.csv) from [SimpleMaps](https://simplemaps.com/data/us-counties), which contains county FIPS codes and their latitude and longitude coordinates. After merging this dataset with the Median Gross Rent dataset using the five-digit FIPS codes, I then performed the straight-line distance calculation with the *geodesic* library.
 
