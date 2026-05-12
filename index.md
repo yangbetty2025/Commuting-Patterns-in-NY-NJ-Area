@@ -20,7 +20,7 @@ My study aims to answer the following three questions:
 <br>
 
 ## Methods
-I used Python 3.12 in Google Colab to perform all data cleaning, manipulation, and the static visualizations for this project. To create the flow map, I used [FlowmapBlue](https://www.flowmap.blue/), which is a free, open-source web tool. To create an interactive map for a static webpage, I used [ArcGIS Online](https://www.arcgis.com/index.html), a web-based mapping platform for creating and publishing interactive web maps.
+I used Python 3.12 in [Google Colab](https://colab.research.google.com/drive/1qW6s15uqbgNXtwzU3PVyDisXsmdnu7f0#scrollTo=BdZd1ZGs31VL) to perform all data cleaning, manipulation, and the static visualizations for this project. To create the flow map, I used [FlowmapBlue](https://www.flowmap.blue/), which is a free, open-source web tool. To create an interactive map for a static webpage, I used [ArcGIS Online](https://www.arcgis.com/index.html), a web-based mapping platform for creating and publishing interactive web maps.
 
 To analyze **patterns of worker flows in the NY-NJ area**, I downloaded the [data](assets/css/NY_NJ_Total_Workers.csv) (ID: 302100) from the American Association of State Highway and Transportation Official (AASHTO) Census Transportation Solutions, which provides data on home and work locations and journey-to-work travel flows via its [CTTP data portal](https://ctppdata.transportation.org/#/index). I queried data for 2017-2021 (5 years) at the State-County level on the flow of workers aged 16 and over across all counties in NY and NJ.
 
