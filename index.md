@@ -70,6 +70,14 @@ The bidirectional bar chart below illustrates the striking differences between t
  <img src="assets/css/BidirectionalBarChart.png" width="100%">
 <br> 
 
+  <iframe src="https://velvety-haupia-ed0ab9.netlify.app"
+  width="100%" 
+  height="600" 
+  frameborder="2" 
+  allowfullscreen>>
+  </iframe>
+<br>
+
 Why, then, do so many workers put up with their long commute to Manhattan?  
 
 Many reasons come to mind: more job opportunities, better pay, and so on. But the one reason we hear most about, even from those who both work *and* live in Manhattan, is how unaffordable rents are in the city. 
