@@ -61,7 +61,7 @@ In fact, the summary table below breaks down the number of workers living in eac
  <img src="assets/css/NetWokersFlowTable.png" width="100%">
 <br>
 
-{ % include_relative assets/css/Net_Flow_Table.html % } 
+{% include Net_Flow_Table.html %}
 
 Of the seven workplaces, **Manhattan is the only area with a net inflow of workers** (around **1.5 million**), while the other workplaces show net outflows of between 78,000 and 310,000 workers.
 
