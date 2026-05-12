@@ -67,12 +67,10 @@ Of the seven workplaces, **Manhattan is the only area with a net inflow of worke
 The bidirectional bar chart below illustrates the striking differences between the net inflow of workers into Manhattan from other areas and the net outflow of workers in all other areas:
 <br>
 <br> 
- <img src="assets/css/BidirectionalBarChart.png" width="100%">
-<br> 
 
-  <iframe src="https://velvety-haupia-ed0ab9.netlify.app"
+  <iframe src="https://guileless-praline-14a41f.netlify.app"
   width="100%" 
-  height="600" 
+  height="400" 
   frameborder="2" 
   allowfullscreen>>
   </iframe>
@@ -100,8 +98,12 @@ There is a general pattern: **the farther the county is from Manhattan, the chea
 This negative relationship between distance and rent level is clearly illustrated by the following scatterplot: 
 <br>
 <br>
- <img src="assets/css/Scatterplot.png" width="100%">
-<br>
+   <iframe src="https://guileless-praline-14a41f.netlify.app"
+  width="100%" 
+  height="400" 
+  frameborder="2" 
+  allowfullscreen>>
+  </iframe>
 <br>
 
 A Pearson’s Correlation Coefficient of -0.844 quantifies this **strong negative correlation between rent and distance**, and an Ordinary Least Squares regression reveals that the **distance to Manhattan is a significant predictor for median gross rent** at the 5% significant level (*p*-value < 0.0001, Confidence Interval [-4.533, -3.416]), while distance alone explains over 70% of the total variance of median gross rent (*R<sup>2</sup>* = 0.71). 
