@@ -98,7 +98,7 @@ This negative relationship between distance and rent level is clearly illustrate
  <img src="assets/css/Scatterplot.png" width="100%">
 <br>
 <br>
-{% _include Rent_Distance_Scatterplot.html %}
+{% include Rent_Distance_Scatterplot.html %}
 
 A Pearson’s Correlation Coefficient of -0.844 quantifies this **strong negative correlation between rent and distance**, and an Ordinary Least Squares regression reveals that the **distance to Manhattan is a significant predictor for median gross rent** at the 5% significant level (*p*-value < 0.0001, Confidence Interval [-4.533, -3.416]), while distance alone explains over 70% of the total variance of median gross rent (*R<sup>2</sup>* = 0.71). 
 
