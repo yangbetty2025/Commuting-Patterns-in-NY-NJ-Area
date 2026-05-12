@@ -70,9 +70,6 @@ The bidirectional bar chart below illustrates the striking differences between t
  <img src="assets/css/BidirectionalBarChart.png" width="100%">
 <br> 
 
-{% _include Net_Flow_Bar_Chart.html %}
-
-
 Why, then, do so many workers put up with their long commute to Manhattan?  
 
 Many reasons come to mind: more job opportunities, better pay, and so on. But the one reason we hear most about, even from those who both work *and* live in Manhattan, is how unaffordable rents are in the city. 
@@ -98,7 +95,6 @@ This negative relationship between distance and rent level is clearly illustrate
  <img src="assets/css/Scatterplot.png" width="100%">
 <br>
 <br>
-{% include Rent_Distance_Scatterplot.html %}
 
 A Pearson’s Correlation Coefficient of -0.844 quantifies this **strong negative correlation between rent and distance**, and an Ordinary Least Squares regression reveals that the **distance to Manhattan is a significant predictor for median gross rent** at the 5% significant level (*p*-value < 0.0001, Confidence Interval [-4.533, -3.416]), while distance alone explains over 70% of the total variance of median gross rent (*R<sup>2</sup>* = 0.71). 
 
