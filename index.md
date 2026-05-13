@@ -13,7 +13,7 @@ Studies have shown that long commutes negatively affect [health](https://www.epa
 
 It would seem that shortening the commute might make NYC workers a little happier. However, whether this is feasible requires a closer look at the commuting patterns of NYC workers and at a possible main driver of the long commute.
 
-My study aims to answer the following three questions:
+My study aims to answer the following questions:
 1.	What are the **commuting patterns** in the New York-New Jersey (NY-NJ) area?
 2.	Is there an **association** between **rent levels** and the **distance of commute**?
 <br>
